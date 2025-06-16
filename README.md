@@ -48,3 +48,29 @@ A simple and elegant React Native mobile app built with **Expo Router** that hel
    npx expo start
 
 Open in your emulator or scan QR with Expo Go app.
+
+
+---
+
+## 📬 Let's Connect
+
+If you're interested in collaborating, have feedback, or want to discuss ideas, feel free to reach out:
+
+- 📫 **GitHub**: [@prasanthi613](https://github.com/prasanthi613)
+- ✉️ **Email**: prasanthipadi@gmail.com
+
+---
+
+## 🙌 Contributions
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repository and submit a pull request.
+
+---
+
+
+## 🚀 Built With ❤️
+
+Made using **React Native**, **Expo Router**, and **Open Source Tools**.
+
+> If you found this project useful, consider giving it a ⭐️ to support its development!
