@@ -63,3 +63,16 @@ Feel free to fork the repository and submit a pull request.
 Made using **React Native**, **Expo Router**, and **Open Source Tools**.
 
 > If you found this project useful, consider giving it a ⭐️ to support its development!
+
+## 📦 Setup Instructions
+
+   ```bash
+   git clone https://github.com/yourusername/health-tracker.git
+   cd health-tracker
+   npm install
+   npx expo install react-native-svg react-native-chart-kit @react-native-async-storage/async-storage
+   npx expo start
+
+Open in your emulator or scan QR with Expo Go app.
+
+
