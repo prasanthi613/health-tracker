@@ -36,18 +36,7 @@ A simple and elegant React Native mobile app built with **Expo Router** that hel
 - Bar chart is dynamically generated from the last 7 log entries to help users visualize activity trends.
 - All layout and navigation is handled through **Expo Router**, supporting file-based routing for scalability.
 
----
 
-## 📦 Setup Instructions
-
-   ```bash
-   git clone https://github.com/yourusername/health-tracker.git
-   cd health-tracker
-   npm install
-   npx expo install react-native-svg react-native-chart-kit @react-native-async-storage/async-storage
-   npx expo start
-
-Open in your emulator or scan QR with Expo Go app.
 
 
 ---
