@@ -40,20 +40,11 @@ A simple and elegant React Native mobile app built with **Expo Router** that hel
 
 ## 📦 Setup Instructions
 
-1. Clone the repository:
-
    ```bash
    git clone https://github.com/yourusername/health-tracker.git
    cd health-tracker
-
-2. Install the dependencies
-
-   '''bash
    npm install
    npx expo install react-native-svg react-native-chart-kit @react-native-async-storage/async-storage
-
-3. Start the App
-   '''bash
    npx expo start
 
-5. Open in your emulator or scan QR with Expo Go app.
+Open in your emulator or scan QR with Expo Go app.
