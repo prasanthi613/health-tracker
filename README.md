@@ -48,11 +48,12 @@ A simple and elegant React Native mobile app built with **Expo Router** that hel
 
 2. Install the dependencies
 
+   '''bash
    npm install
    npx expo install react-native-svg react-native-chart-kit @react-native-async-storage/async-storage
 
 3. Start the App
-
+   '''bash
    npx expo start
 
-4. Open in your emulator or scan QR with Expo Go app.
+5. Open in your emulator or scan QR with Expo Go app.
