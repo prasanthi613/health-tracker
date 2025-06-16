@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# 🌿 Mobile Health Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and elegant React Native mobile app built with **Expo Router** that helps users **track daily health metrics** such as water intake, step count, and sleep hours. The app visualizes trends, stores data persistently on the device, and offers a clean UI/UX for a smooth user experience.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Features
+
+- ✅ Track **Water Intake**, **Steps**, and **Sleep Hours**
+- 📊 Visualize **Step Trends** using a bar chart (last 7 logs)
+- 📆 View **log history** with timestamped entries
+- 🗑️ Delete specific entries from log
+- 💾 **Persistent local storage** with AsyncStorage
+- 🎯 Daily summary box with cumulative values
+- 📐 Responsive design with clean, mobile-first layout
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer         | Tech Used                         |
+|---------------|----------------------------------|
+| Framework     | [React Native](https://reactnative.dev/) via [Expo](https://expo.dev/) |
+| Routing       | [Expo Router](https://expo.github.io/router/docs) |
+| Charts        | [react-native-chart-kit](https://github.com/indiespirit/react-native-chart-kit) |
+| Local Storage | [@react-native-async-storage/async-storage](https://github.com/react-native-async-storage/async-storage) |
+| UI Components | React Native built-in components |
+| Styling       | Custom `StyleSheet` API          |
+
+---
+
+## 🧠 Architecture & Workflow
+
+- The app uses **functional components** and **hooks** (`useState`, `useEffect`) for state management and side effects.
+- Logs are stored in local state and synced with **AsyncStorage** so data is preserved across sessions.
+- Bar chart is dynamically generated from the last 7 log entries to help users visualize activity trends.
+- All layout and navigation is handled through **Expo Router**, supporting file-based routing for scalability.
+
+---
+
+## 📦 Setup Instructions
+
+1. Clone the repository:
 
    ```bash
+   git clone https://github.com/yourusername/health-tracker.git
+   cd health-tracker
+
+2. Install the dependencies
+
    npm install
-   ```
+   npx expo install react-native-svg react-native-chart-kit @react-native-async-storage/async-storage
 
-2. Start the app
+3. Start the App
 
-   ```bash
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+4. Open in your emulator or scan QR with Expo Go app.
